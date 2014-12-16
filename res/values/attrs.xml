@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MultiEditText">
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderRadius" format="dimension" />
+        <attr name="multiLength" format="integer" />
+        <attr name="multiWidth" format="dimension" />
+        <attr name="multiColor" format="color" />
+        <attr name="multiRadius" format="dimension" />
+        <attr name="multiTextVisible" format="boolean" />
+    </declare-styleable>
+
+</resources>

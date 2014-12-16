@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.multiedittext.example.widget.MultiEditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="25dp"
+        android:cursorVisible="false"
+        android:inputType="number"
+        android:maxLength="6"
+        android:padding="0dp" 
+        android:textSize="30sp"/>
+
+    <com.multiedittext.example.widget.MultiEditText
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="25dp"
+        android:cursorVisible="false"
+        android:inputType="textPassword"
+        android:padding="0dp"
+        android:textSize="16sp"
+        custom:borderColor="@color/gray"
+        custom:borderRadius="@dimen/custom_ev_border_radius"
+        custom:borderWidth="@dimen/custom_ev_border_width"
+        custom:multiColor="@color/green"
+        custom:multiLength="6"
+        custom:multiWidth="@dimen/custom_ev_multi_width" 
+        custom:multiTextVisible="true"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" 
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Show MultiEditText1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:text="Show MultiEditText2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" 
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="changeMET1Visible" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:text="changeMET2Visible" />
+    </LinearLayout>
+
+</LinearLayout>

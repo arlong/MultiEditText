@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_ev_border_color">#CCCCCC</color>
+    <dimen name="default_ev_border_width">5dp</dimen>
+    <dimen name="default_ev_border_radius">3dp</dimen>
+    <color name="default_ev_multi_color">#CCCCCC</color>
+    <dimen name="default_ev_multi_width">10dp</dimen>
+    <dimen name="default_ev_multi_radius">3dp</dimen>
+    <integer name="default_ev_multi_length">6</integer>
+
+    <dimen name="custom_ev_border_width">10dp</dimen>
+    <dimen name="custom_ev_border_radius">10dp</dimen>
+    <dimen name="custom_ev_multi_width">10dp</dimen>
+
+</resources>
